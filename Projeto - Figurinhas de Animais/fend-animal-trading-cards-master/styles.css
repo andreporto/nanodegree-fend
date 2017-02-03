@@ -1,0 +1,46 @@
+/* add your CSS here */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+
+.espacamento {
+    padding-bottom: 10px;
+}
+
+img {
+    width: 300px;
+}
+
+.tamanho-box-principal {
+    width: 300px;
+}
+
+.tamanho-dados {
+        width: 270px; /* 300px -15px -15px */
+}
+
+.sombra {
+        box-shadow: 10px 10px 5px #CCC;
+}
+
+.fato-interessante {
+    font-style: italic;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+li span {
+    font-weight: bold;
+}

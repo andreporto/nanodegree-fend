@@ -1,0 +1,15 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Até agora revi algumas tags HTML tais como: <p>, <img>, <a>, <button>, <em>, <sup>, <strong>, <figure>, <s>.
+
+Tem sido fácil seguir as instruções do curso até o momento.
+
+Até este ponto do curso não encontrei dificuldade.
+
+Para a solução de problemas tenho usado a estratégia de quebrar grandes problemas em problemas menores e tenho feito pesquisas no Google ou em comunidades de desenvolvedores para adquirir os conhecimentos necessários às tarefas do curso.
