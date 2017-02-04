@@ -1,0 +1,81 @@
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+   
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.slogan {
+    font-size: 1.5em; 
+}
+
+.logo {
+    width: 16.66%;
+}
+
+.logo-image {
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+hr {
+    border-top: 4px solid #bcbbbb;
+    width: 100%;
+}
+
+.title {
+    text-align: right;
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+}
+
+.section-title {
+    padding: 10px 0 10px 10px;
+    text-align: left;
+    color: #bcbbbb;
+    font-size: 2.8em;
+}
+
+.theme img{
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
+.projects {
+    width: 100%;
+}
+
+.project {
+    width: 32%;
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-title {
+    font-size: 3em;
+}
+
