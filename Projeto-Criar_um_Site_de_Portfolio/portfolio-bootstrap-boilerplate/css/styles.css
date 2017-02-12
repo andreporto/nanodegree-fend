@@ -1,0 +1,21 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.big-title {
+    font-size: 4em;
+}
+
+.section-title {
+    color: #bcbbbb;
+}
