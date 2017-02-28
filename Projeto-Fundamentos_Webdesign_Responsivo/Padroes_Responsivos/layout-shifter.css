@@ -1,0 +1,67 @@
+div {
+    text-align: center;
+    color:white;
+}
+
+img {
+    max-height: 150px;
+}
+
+[container] {
+    width: 100%;
+    display: flex;
+}
+
+[wrap] {
+    flex-wrap: wrap;
+}
+
+[box] {
+    width: 100%;
+    color: black;
+}
+
+[red] {
+    background-color: darkred;
+}
+
+[blue] {
+    background-color: darkblue;
+}
+
+[lred] {
+    background-color: indianred;
+}
+
+[lblue] {
+    background-color: deepskyblue;
+}
+
+@media screen and (min-width: 550px) {
+    [red], #group {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    [red] {
+        width: 25%;
+        order: 1;
+    }
+    #group {
+        width: 50%;
+    }
+    [lblue] {
+        width: 25%;
+        order: -1;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    [container] {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
