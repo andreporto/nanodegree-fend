@@ -3,13 +3,21 @@ div {
     color:white;
 }
 
+img {
+    max-height: 150px;
+}
+
 [container] {
     display: flex;
+}
+
+[wrap] {
     flex-wrap: wrap;
 }
 
 [box] {
     width: 100%;
+    color: black;
 }
 
 [red] {
