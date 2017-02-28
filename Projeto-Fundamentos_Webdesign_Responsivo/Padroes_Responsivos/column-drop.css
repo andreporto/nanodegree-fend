@@ -1,0 +1,42 @@
+div {
+    text-align: center;
+    color:white;
+}
+
+[container] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[box] {
+    width: 100%;
+}
+
+[red] {
+    background-color: darkred;
+}
+
+[green] {
+    background-color: darkgreen;
+}
+
+[blue] {
+    background-color: darkblue;
+}
+
+@media screen and (min-width: 450px) {
+    [red] {
+        width: 25%;
+    }
+    [green] {
+        width: 75%;
+    }
+}
+@media screen and (min-width: 550px) {
+    [red], [blue] {
+        width: 25%;
+    }
+    [green] {
+        width: 50%;
+    }
+}
