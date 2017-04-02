@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive avatar" src="images/portrait.jpg" alt="André Porto portrait logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="big-title">André Porto</h1>
+                    <h4>Soluções inteligentes</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive full-width" src="images/main.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 section-title">
+                    <h2>Projetos:</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 center-block">
+                    <img class="img-responsive img-projeto img-thumbnail" data-toggle="modal" data-target="#lista-tarefas" src="images/lista-tarefa.png" alt="App Lista de Tarefas Pessoais">
+                    <br>
+                    <span class="project-title">Lista de Tarefas</span>
+                    <br>
+                    <a href="https://play.google.com/store/apps/details?id=br.com.saladatech.tarefas">Baixe da Google Play</a>
+                </div>
+                <div class="col-md-4 center-block">
+                    <img class="img-responsive img-projeto img-thumbnail" data-toggle="modal" data-target="#inspecao-seguranca" src="images/inspecao-seguranca.png" alt="App Checklist Inspeção de Segurança">
+                    <br>
+                    <span class="project-title">Inspeção de Segurança</span>
+                    <br>
+                    <a href="https://play.google.com/store/apps/details?id=com.saladatech.check_list_inspecao_seguranca_rabalho">Baixe da Google Play</a>
+                </div>
+                <div class="col-md-4 center-block">
+                    <img class="img-responsive img-projeto img-thumbnail" data-toggle="modal" data-target="#saladatech" src="images/saladatech.png" alt="Canal Saladatech">
+                    <br>
+                    <span class="project-title">Canal Saladatech</span>
+                    <br>
+                    <a href="http://youtube.com/saladatech">YouTube - SaladaTECH</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="lista-tarefas" tabindex="-1" role="dialog" aria-labelledby="App Lista de Tarefas" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="listaTarefas">App Lista de Tarefas Pessoais</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/lista-tarefa.png">
+                        Este App foi concebido com o intuito de facilitar o gerenciamento pessoal de tarefas para todos que desejarem um maior controle de suas atividades diárias.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="inspecao-seguranca" tabindex="-1" role="dialog" aria-labelledby="App Segurança do Trabalho'" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="inspecaoSeguranca">Checklist Inspeção de Segurança do Trabalho</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/inspecao-seguranca.png">
+                        Este App foi criado para auxiliar no ensino da matéria de segurança do trabalho.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="saladatech" tabindex="-1" role="dialog" aria-labelledby="Detalhes sobre Canal Saladatech" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="saladatech">Canal SaladaTECH</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/saladatech.png">
+                        Neste canal você poderá encontrar vários tutoriais curtos, dicas de uso de ferramentas e recursos web para facilitar suas atividades diárias.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

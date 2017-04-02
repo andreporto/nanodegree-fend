@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.full-width {
+    width: 100%;
+    max-height: 250px;
+}
+
+.img-projeto {
+    max-height: 250px;
+}
+
+@media (max-width: 992px){
+    .img-projeto {
+        max-width: 100%;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 413px){
+    .img-projeto {
+        max-width: 300px;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 993px){
+    .img-projeto {
+        width: 100%;
+    }
+}
+
+.big-title {
+    font-size: 4em;
+}
+
+.section-title {
+    color: #bcbbbb;
+}
+
+.avatar {
+    max-height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #888888;
+}
